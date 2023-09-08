@@ -21,7 +21,7 @@ export default function SignUpForm() {
               }) 
             })
             const result = await response.json();
-            //console.log(result);
+            console.log(result);
         } catch (error) {
         setError(error.message);
         }
@@ -43,5 +43,6 @@ export default function SignUpForm() {
                 <button>Submit</button>
             </form>
         </>
-    ) ;
-  }
+    ) 
+}
+
